@@ -19,7 +19,11 @@ const Header = () => {
         <div>Categories</div>
       </nav>
       <button className={styles.menu}>
-        <img src="/assets/images/icon-menu.svg" alt="" />
+        <img
+          className={styles.menuSvg}
+          src="/assets/images/icon-menu.svg"
+          alt=""
+        />
       </button>
     </header>
   );
