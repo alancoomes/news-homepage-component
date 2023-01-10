@@ -1,10 +1,17 @@
 import React from "react";
+import styles from "../MainContent/MainContent.module.css";
 
 const MainContent = () => {
   return (
     <article>
-      <img src="./assets/images/image-web-3-desktop.jpg" alt="" />
-      <h1>The Bright Future of Web 3.0?</h1>
+      <div className={styles.imgWrapper}>
+        <img
+          className={styles.mainImg}
+          src="./assets/images/image-web-3-mobile.jpg"
+          alt=""
+        />
+      </div>
+      <h1 className={styles.headline}>The Bright Future of Web 3.0?</h1>
 
       <div>
         <p>

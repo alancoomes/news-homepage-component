@@ -1,0 +1,13 @@
+.imgWrapper {
+  width: 100%;
+}
+
+.mainImg {
+  width: 100%;
+  height: auto;
+}
+
+.headline {
+  text-align: left;
+  font-size: 4rem;
+}
